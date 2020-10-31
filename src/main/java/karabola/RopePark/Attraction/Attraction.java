@@ -13,11 +13,11 @@ import javax.persistence.Id;
 public class Attraction {
 
         @Id
-        private Long Id;// klucz
+        private Long Id;
         private String name;
 
 
-        // budujemy relacje
+        
         @ManyToOne
         private City city;
 
