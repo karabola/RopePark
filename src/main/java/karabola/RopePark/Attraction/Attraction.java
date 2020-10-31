@@ -8,8 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Id;
 
-@Entity// komunikacja z DB;korzystamy ze SpringData
-@Data//generuje wszystkie gettery i settery
+@Entity
+@Data
 public class Attraction {
 
         @Id
